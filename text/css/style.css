@@ -1,0 +1,76 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body {
+    /* Police de caractère */
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+    /* Taille de la police */
+    font-size: 20px;
+
+    /* Epaisseur de la police */
+    font-weight: normal;
+    /* lighter | normal | bold */
+
+    /* Style de la police */
+    font-style: normal;
+    /* oblique | normal |italic */
+
+    /* Alignement du texte */
+    text-align: center;
+    /* center | left | right | justify */
+}
+
+p {
+    /* Majuscule, minuscule */
+    text-transform: uppercase;
+    /* lowercase | none | capitalize */
+
+    color: #333;
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+li {
+    /* Supprime les puces */
+    list-style: none;
+
+    /* Affiche une main au lien d'une flèche */
+    cursor: pointer;
+}
+
+.baleine {
+    font-size: 60px;
+}
+
+a {
+    font-size: 22px;
+
+    /* Style sur le texte (souligné, barré..) */
+    text-decoration: none;
+    /* underline */
+
+    /* Il existe plusieurs unités pour les couleurs */
+    /* color: rgb(36, 142, 34); */
+    /* color: black; */
+    color: #ff0000;
+}
+
+/* La pseudo class :hover signifie au survole */
+a:hover {
+    color: #f27c7c;
+    font-size: 23px;
+}
+
+/* La pseudo class :visited signifie une fois que le lien a été clicqué une fois */
+a:visited {
+    color: orange;
+}
+
+/* La pseudo class :active signifie pendant le click */
+a:active {
+    color: green;
+}

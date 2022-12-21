@@ -1,0 +1,93 @@
+/* Je suis un commentaire CSS */
+body {
+    color: #333;
+    font-size: 18px;
+}
+
+/* On peut selectionner les noms de balises HTML */
+/* Consequences tous les elements de ce type seront modifiés */
+h1 {
+    background-color: #ffc0c7;
+    color: #fff;
+}
+
+h2 {
+    color: #4169E1;
+}
+
+/* On peut selectionner des balises spécifiques grâce aux class en utlisant le . */
+/* Consequences tous les element qui ont cette class seront modifiés */
+.subtitle-h2 {
+    color: red;
+}
+
+.subtitle-h2:hover {
+    color: pink;
+}
+
+.subtitle {
+    color: #6c3483;
+}
+
+.section-2 {
+    color: #229954;
+}
+
+.font-b {
+    font-weight: bold;
+}
+
+/* On peut selectionner une balise spécifique par l'id en utilisant un # */
+/* Consequence l'element qui a cet id sera modifié */
+/* On préfère laisser les ID au Javascript sauf exception */
+#ancre {
+    /* font-size: 60px; */
+}
+
+/* On peut selectionner des balises spécifiques par selecteurs descendants */
+
+.section1 h5 {
+    color: #6c3483;
+}
+
+.section2 ul li {
+    color: #6c3483;
+}
+
+/* Je peux selectionner plusieurs elements en les séparant par une virgule */
+.item {
+    font-style: italic;
+}
+
+.item-h3 {
+    font-family: sans-serif;
+}
+
+.item-h4 {
+    font-size: 28px;
+}
+
+h5 {
+    text-align: right;
+}
+
+h6 {
+    text-decoration: underline;
+}
+
+.title-h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.item-li {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.item-ol {
+    list-style: none;
+}
