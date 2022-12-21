@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    /* { background-color: } permet de mettre une couleur de fond */
+    background-color: #3498db;
+    color: #fff;
+
+    /* La valeur par defaut dun element block est { display: block; }*/
+    /* display: block; */
+
+    /* Largeur */
+    width: 300px;
+
+    /* Hauteur */
+    /* height: 200px; */
+    min-height: 200px;
+
+    /* Margin sert à mettre de la marge exterieur, il y a plein de raccourcis */
+
+    /* margin-top: ; */
+    /* margin-right: ; */
+    /* margin-bottom: ; */
+    /* margin-left: ; */
+    /* margin: 40px 30px 30px 50px; */
+    /* margin: 50px 200px; */
+    /* margin: 100px; */
+
+    /* { margin: auto; } permet de centrer le block */
+    margin: 50px auto;
+
+    /* Padding sert à mettre la marge interieure */
+
+    /* padding-top: ; */
+    /* padding-right: ; */
+    /* padding-bottom: ; */
+    /* padding-left: ; */
+    /* padding: 40px 30px 30px 50px; */
+    /* padding: 10px 20px; */
+    padding: 20px;
+
+    /* La propriété raccourci { border: } permet de preciser la taille, le style et la couleur de la bordure */
+    /* border: 2px solid black; */
+
+    border-radius: 10px;
+
+    /* { box-shadow: }  permet de créer une ombre */
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    background-color: #3e913e;
+    color: #fff;
+    text-align: center;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.round {
+    /* La propriété border-radius avec la valeur 50% permet de faire des cercles */
+
+    border-radius: 50%;
+    background-color: #eb5858;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+
+    /* On applique la propriété flex pour centrer le texte */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* { box-shadow: }  permet de créer une ombre */
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+    transition: .25s;
+}
+
+.round:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.5);
+}
+
+.definition {
+    margin: 50px;
+    color: #333;
+    text-align: center;
+}
+
+span {
+    /* La valeur par defaut dun element inline est { display: inline; }*/
+    /* display: inline; */
+    font-weight: bold;
+}
