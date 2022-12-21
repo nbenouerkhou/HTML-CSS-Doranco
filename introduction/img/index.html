@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML - Introduction</title>
+    </head>
+    <body>
+        <!-- Je suis un commentaire HTML, je n'apparait pas sur la page du navigateur -->
+
+        <div>
+            <!-- Les titres s'écrivent dans des balises de h1 à h6 -->
+            <h1>Je suis un titre de niveau 1</h1>
+            <h2>Titre moins important (sous-titre)</h2>
+            <h3>Titre moins important encore</h3>
+            <h4>Titre pas trop important</h4>
+            <h5>Titre pas important</h5>
+            <h6>Titre vraiment pas important</h6>
+        </div>
+
+        <!-- La balise <hr> affiche une ligne, elle définit une pause thématique dans une page HTML -->
+        <hr />
+
+        <div id="up">
+            <h2>Les paragraphes</h2>
+            <p>Pour créer des paragraphes nous allons utiliser la balise p</p>
+            <p>
+                Pour chaque nouveau <strong>paragraphe</strong> , un retour à la ligne est crée <span>automatiquement</span> par votre
+                <em>navigateur</em>
+                <!-- La balise <br> permet de faire un retour à la ligne dans un paragraphe -->
+                <br />
+                (exactement comme avec les titres)
+            </p>
+        </div>
+
+        <hr />
+
+        <div>
+            <h2>Les listes</h2>
+            <h3>Les personnages des Simpsons</h3>
+
+            <!-- liste non ordonnées (ul, unordered list) -->
+            <ul>
+                <li>
+                    <!-- Dans une liste nous pouvons mettre des images, des liens cliquables, ... -->
+                    <a href="https://www.wikiwand.com/fr/Bart_Simpson">Bart</a>
+                </li>
+                <li>Lisa</li>
+                <li>Homer</li>
+            </ul>
+
+            <h3>Mes films préférés</h3>
+
+            <!-- liste ordonnées (ol, ordered list)-->
+            <ol>
+                <li>Ben Hur</li>
+                <li>Avatar</li>
+                <li>Batman</li>
+            </ol>
+        </div>
+
+        <hr />
+
+        <div>
+            <h2>Les images</h2>
+            <div>
+                <!-- Si l'image manque, la valeur de l'attribut alt s'affiche -->
+                <img src="img/bart.png" alt="Je suis bart" title="Bart" />
+                <img src="img/error.png" alt="Je suis le message qui s'affiche quand l'image n'est pas presente " />
+            </div>
+        </div>
+
+        <hr />
+
+        <div>
+            <h2>Les liens</h2>
+            <!--  Balises <a> (anchor) ce sont les liens cliquables-->
+
+            <div>
+                <!-- lien vers un site externe -->
+                <a href="https://www.doranco.fr/">doranco</a>
+            </div>
+
+            <div>
+                <!-- lien vers une page du site -->
+                <a href="page.html">page 2</a>
+            </div>
+
+            <div>
+                <!-- lien dans la page, je mène vers la balise qui a l'id="up" -->
+                <a href="#up">les paragraphes</a>
+            </div>
+
+            <div>
+                <!-- lien pour envoyer un mail -->
+                <a href="mailto:edjek@hotmail.fr">edjek@hotmail.fr</a>
+            </div>
+
+            <div>
+                <!-- lien pour lancer un appel téléphonique -->
+                <a href="tel:0165765">01 34 67 00 00</a>
+            </div>
+
+            <div>
+                <!-- Une image aussi peut être cliquable -->
+                <a href="page.html"> <img src="img/bart.png" alt="" />cliquez sur Bart! </a>
+            </div>
+        </div>
+    </body>
+</html>
